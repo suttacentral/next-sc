@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 import { css } from 'lit';
 
 export const SCFontStyles = css`
@@ -941,6 +942,254 @@ export const SCFontStyles = css`
   @font-face {
     font-family: 'PaliTilok';
     src: url('/files/fonts/Pali_Tilok.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Agastya Extended Tamil';
+    src: url('/files/fonts/AgastyaExtendedTamil.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'e-Vatteluttu';
+    src: url('/files/fonts/e-VatteluttuOT.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'RanjanaUnicode';
+    src: url('/files/fonts/RanjanaUNICODE1.0.TTF');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Noto Sans Hanunoo';
+    src: url('/files/fonts/NotoSansHanunoo-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Patimokkha';
+    src: url('/files/fonts/Patimokkha.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Noto Sans Nastaliq Urdu';
+    src: url('/files/fonts/NotoNastaliqUrdu-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'BabelStone PhagsPa TibA';
+    src: url('/files/fonts/BabelStonePhagspaTibetanA_v2.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'BabelStone PhagsPa Seal';
+    src: url('/files/fonts/BabelStonePhagspaSeal_v1.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Lohit Oriya Vedic';
+    src: url('/files/fonts/Lohit-Oriya-Vedic.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Noto Sans Bengali Vedic';
+    src: url('/files/fonts/Lohit-Oriya-Vedic.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Noto Sans Gujarati Vedic';
+    src: url('/files/fonts/NotoSansGujarati-Vedic.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Noto Sans Gurmukhi Vedic';
+    src: url('/files/fonts/NotoSansGurmukhi-Vedic.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Mukta Malar Regular';
+    src: url('/files/fonts/MuktaMalar-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Tibetan Dbu Med';
+    src: url('/files/fonts/Qomolangma-Betsu.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Noto Sans Saurashtra';
+    src: url('/files/fonts/NotoSansSaurashtra-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Khamti Regular';
+    src: url('/files/fonts/Khamti-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Noto Sans Kannada';
+    src: url('/files/fonts/NotoSansKannada-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Noto Sans Buginese';
+    src: url('/files/fonts/NotoSansBuginese-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Noto Sans Malayalam';
+    src: url('/files/fonts/NotoSansMalayalam-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Meera';
+    src: url('/files/fonts/Meera-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Noto Sans Telugu';
+    src: url('/files/fonts/Lohit-Telugu.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Aazhvaar Telugu';
+    src: url('/files/fonts/AazhvaarTelugu.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Noto Sans Khmer';
+    src: url('/files/fonts/NotoSerifKhmer-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Noto Sans OldPersian';
+    src: url('/files/fonts/NotoSansOldPersian-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'e-Grantamil';
+    src: url('/files/fonts/e-Grantamil.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Agastya Serif';
+    src: url('/files/fonts/AgastyaSerif.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Muktamsiddham';
+    src: url('/files/fonts/Muktamsiddham.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Kaccayana Thai';
+    src: url('/files/fonts/KaccayanaThai.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'e-Pandya';
+    src: url('/files/fonts/e-Pandya.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'ApDevaSiddham';
+    src: url('/files/fonts/ApDevaSiddham.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'AnnaPurna';
+    src: url('/files/fonts/AnnapurnaSIL-TT-Regular.ttf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

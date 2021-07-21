@@ -279,6 +279,11 @@ export const paliScriptsStyles = css`
     font-size: 150%;
   }
 
+  .khomthai {
+    font-family: 'Patimokkha';
+    font-size: 130%;
+  }
+
   .khomthai-script {
     font-family: 'Patimokkha' !important;
     font-size: 150%;
